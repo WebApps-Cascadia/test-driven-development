@@ -73,7 +73,7 @@ namespace LandonHotel.Tests
             //           cost per day = rate + rate * guestCount * 10/100
 
 
-            double totalBookingCost = 480; //dummy value to start
+            double totalBookingCost = numberDays * (rate + rate * (guestCount-1) * .1); //dummy value to start
 
             //Act
             //TODO: Setup roomRepo and create new Booking using the constants

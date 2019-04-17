@@ -33,7 +33,7 @@ namespace LandonHotel.Services
 
         public double CalculateBookingCost(int roomId, Booking booking)
         {
-            double numberdays = 2;//booking.CheckOutDate - booking.CheckInDate;
+            double numberdays = booking.CheckOutDate.Subtract(booking.CheckInDate).TotalDays;
             var room = _roomsRepo.GetRoom(roomId); 
             var guests = booking.NumberOfGuests - 1;
             //cost per day = rate + rate * guestCount * 10 / 100
