@@ -64,6 +64,7 @@ namespace LandonHotel.Tests
         {
             //Arrange
             var service = Subject();
+            roomRepo.Setup(r => r.GetRoom(1)).Returns(new Room { Id = 1, Rate = 200 });
             const int guestCount = 3, rate = 200, numberDays = 2;
             System.DateTime checkin = System.DateTime.Now;
             System.DateTime checkout = checkin.AddDays(numberDays);
@@ -71,11 +72,12 @@ namespace LandonHotel.Tests
             //TODO: Calculate total booking cost using the constant values and the business rule
             //           cost per day = rate + rate * guestCount * 10/100
 
-            var totalBookingCost = 1.0; //dummy value to start
+
+            double totalBookingCost = 480; //dummy value to start
 
             //Act
             //TODO: Setup roomRepo and create new Booking using the constants
-            Booking booking = null;
+            Booking booking = new Booking {NumberOfGuests = 3, CheckInDate = checkin, CheckOutDate = checkout  };
             var bookingCostFromService = service.CalculateBookingCost(1, booking);
 
             //Assert
