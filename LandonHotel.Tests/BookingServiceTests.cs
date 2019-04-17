@@ -58,7 +58,7 @@ namespace LandonHotel.Tests
             Assert.Equal(isValid, result);
         }
 
-        //Business Rule: Each additional person increases the room rate by 10% over the regular rate.
+        //Business Rule: Each additional person (over 1) increases the room rate by 10% over the regular rate.
         [Fact]
         public void IsBookingCostForAdditionalPersonsCorrect()
         {
@@ -69,12 +69,13 @@ namespace LandonHotel.Tests
             System.DateTime checkout = checkin.AddDays(numberDays);
 
             //TODO: Calculate total booking cost using the constant values and the business rule
-            //           cost per day = rate + rate * guestCount * 10/100
+            //           cost per day = rate + rate * additional guests * 0.1
 
             var totalBookingCost = 1.0; //dummy value to start
 
             //Act
             //TODO: Setup roomRepo and create new Booking using the constants
+            roomRepo.Setup(null);
             Booking booking = null;
             var bookingCostFromService = service.CalculateBookingCost(1, booking);
 
