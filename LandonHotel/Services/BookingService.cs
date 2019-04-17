@@ -20,20 +20,20 @@ namespace LandonHotel.Services
 
             if (guestIsSmoking)
             {
-                //Business Rule: All rooms are non-smoking
-                return false;
+                return false; //All rooms are non-smoking
             }
             var room = _roomsRepo.GetRoom(roomId);
 
             if (guestIsBringingPets && !room.ArePetsAllowed)
             {
-                return false;
+                return false; // Pets only in designated rooms
             }
             return true;
         }
 
         public double CalculateBookingCost(int roomId, Booking booking)
         {
+            //TODO: Booking cost is the adjusted room rate times the number of days
             return 0.0;
         }
     }

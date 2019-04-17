@@ -58,18 +58,28 @@ namespace LandonHotel.Tests
             Assert.Equal(isValid, result);
         }
 
-        //Business Rule: Each additional person in a room costs an extra 10%.
-        // TODO: Compute
-
+        //Business Rule: Each additional person increases the room rate by 10% over the regular rate.
         [Fact]
-        public void IsBookingCostForAdditionalPersonCorrect()
+        public void IsBookingCostForAdditionalPersonsCorrect()
         {
-            //Arrange (create Subject and setup roomRepo; calculate cost using the rule)
-            var bookingCostCalculatedFromBusinessRule = 1.0;
-            //Act (use the service method CalculateBookingCost)
-            var bookingCostFromService = 0.0;
+            //Arrange
+            var service = Subject();
+            const int guestCount = 3, rate = 200, numberDays = 3;
+            System.DateTime checkin = System.DateTime.Now;
+            System.DateTime checkout = checkin.AddDays(numberDays);
+
+            //TODO: Calculate total booking cost using the constant values and the business rule
+            //           cost per day = rate + rate * guestCount * 10/100
+
+            var totalBookingCost = 1.0; //dummy value to start
+
+            //Act
+            //TODO: Setup roomRepo and create new Booking using the constants
+            Booking booking = null;
+            var bookingCostFromService = service.CalculateBookingCost(1, booking);
+
             //Assert
-            Assert.Equal(bookingCostCalculatedFromBusinessRule, bookingCostFromService); //Start with a false assertion see the test fail
+            Assert.Equal(totalBookingCost, bookingCostFromService);
         }
     }
 }
