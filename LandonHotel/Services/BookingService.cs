@@ -34,7 +34,17 @@ namespace LandonHotel.Services
         public double CalculateBookingCost(int roomId, Booking booking)
         {
             //TODO: Booking cost is the adjusted room rate times the number of days
-            return 0.0;
+             var room = _roomsRepo.GetRoom(roomId);
+           // System.TimeSpan numbDaysTotal = booking.CheckInDate - booking.CheckOutDate;
+
+           double numDays = ( booking.CheckOutDate - booking.CheckInDate).TotalDays;
+
+            double bookingTotalRoomCost = numDays*
+          ( room.Rate+(room.Rate*((booking.NumberOfGuests -1)*.1 ))) ; 
+   
+            return bookingTotalRoomCost;
+
+
         }
     }
 }
