@@ -32,9 +32,9 @@ namespace LandonHotel.Services
             return true;
         }
 
-        public int CalculateBookingCost(int roomId, Booking booking)
+        public double CalculateBookingCost(int roomId, Booking booking)
         {
-            return 0;
+            return 0.0;
         }
     }
 }
