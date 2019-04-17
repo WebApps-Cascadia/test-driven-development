@@ -14,5 +14,6 @@ namespace LandonHotel.Models
         public bool BringingPets { get; set; }
         public bool IsSmoking { get; set; }
         public IList<Room> Rooms { get; set; }
+        public double BookingPrice { get; set; }
     }
 }

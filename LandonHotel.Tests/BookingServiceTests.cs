@@ -64,7 +64,7 @@ namespace LandonHotel.Tests
         {
             //Arrange
             var service = Subject();
-            const int guestCount = 3, rate = 200, numberDays = 3;
+            const int guestCount = 3, rate = 200, numberDays = 2;
             System.DateTime checkin = System.DateTime.Now;
             System.DateTime checkout = checkin.AddDays(numberDays);
 

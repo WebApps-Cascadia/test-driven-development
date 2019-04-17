@@ -11,6 +11,7 @@ namespace LandonHotel.Repositories
         {
             new Room
             {
+                Id = 1,
                 Name = "Winchester",
                 ArePetsAllowed = true,
                 Capacity = 5,
@@ -18,6 +19,7 @@ namespace LandonHotel.Repositories
             },
             new Room
             {
+                Id = 2,
                 Name = "Piccadilly",
                 ArePetsAllowed = false,
                 Capacity = 3,
