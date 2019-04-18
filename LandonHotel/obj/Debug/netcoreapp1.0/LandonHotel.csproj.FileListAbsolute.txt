@@ -1,0 +1,12 @@
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\bin\Debug\netcoreapp1.0\LandonHotel.deps.json
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\bin\Debug\netcoreapp1.0\LandonHotel.runtimeconfig.json
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\bin\Debug\netcoreapp1.0\LandonHotel.runtimeconfig.dev.json
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\bin\Debug\netcoreapp1.0\LandonHotel.dll
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\bin\Debug\netcoreapp1.0\LandonHotel.pdb
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\obj\Debug\netcoreapp1.0\LandonHotel.csprojAssemblyReference.cache
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\obj\Debug\netcoreapp1.0\LandonHotel.csproj.CoreCompileInputs.cache
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\obj\Debug\netcoreapp1.0\UserSecretsAssemblyInfo.cs
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\obj\Debug\netcoreapp1.0\LandonHotel.AssemblyInfoInputs.cache
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\obj\Debug\netcoreapp1.0\LandonHotel.AssemblyInfo.cs
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\obj\Debug\netcoreapp1.0\LandonHotel.dll
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel\obj\Debug\netcoreapp1.0\LandonHotel.pdb

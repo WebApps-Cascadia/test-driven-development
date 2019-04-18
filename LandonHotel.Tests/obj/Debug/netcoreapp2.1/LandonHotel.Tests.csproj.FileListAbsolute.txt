@@ -1,0 +1,17 @@
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\LandonHotel.Tests.deps.json
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\LandonHotel.Tests.runtimeconfig.json
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\LandonHotel.Tests.runtimeconfig.dev.json
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\LandonHotel.Tests.dll
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\LandonHotel.Tests.pdb
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\LandonHotel.dll
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\bin\Debug\netcoreapp2.1\LandonHotel.pdb
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\obj\Debug\netcoreapp2.1\LandonHotel.Tests.csprojAssemblyReference.cache
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\obj\Debug\netcoreapp2.1\LandonHotel.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\obj\Debug\netcoreapp2.1\LandonHotel.Tests.AssemblyInfoInputs.cache
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\obj\Debug\netcoreapp2.1\LandonHotel.Tests.AssemblyInfo.cs
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\obj\Debug\netcoreapp2.1\LandonHotel.Tests.csproj.CopyComplete
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\obj\Debug\netcoreapp2.1\LandonHotel.Tests.dll
+C:\Users\Keith\Source\Repos\test-driven-development\LandonHotel.Tests\obj\Debug\netcoreapp2.1\LandonHotel.Tests.pdb

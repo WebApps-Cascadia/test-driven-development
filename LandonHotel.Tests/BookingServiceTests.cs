@@ -71,11 +71,15 @@ namespace LandonHotel.Tests
             //TODO: Calculate total booking cost using the constant values and the business rule
             //           cost per day = rate + rate * guestCount * 10/100
 
-            var totalBookingCost = 1.0; //dummy value to start
+            var totalBookingCost = (rate + (rate * (guestCount-1) * 10/100)) * numberDays; //first guest rate, and add rate for (guests excluding the first guest) at 10% increase, multiplied by number of days
 
             //Act
             //TODO: Setup roomRepo and create new Booking using the constants
-            Booking booking = null;
+            Booking booking = new Booking();
+            booking.CheckInDate = checkin;
+            booking.CheckInDate = checkout;
+            booking.NumberOfGuests = guestCount;
+            booking.RoomId = 1;
             var bookingCostFromService = service.CalculateBookingCost(1, booking);
 
             //Assert
