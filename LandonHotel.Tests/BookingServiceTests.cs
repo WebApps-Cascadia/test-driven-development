@@ -75,9 +75,11 @@ namespace LandonHotel.Tests
 
             //Act
             //TODO: Setup roomRepo and create new Booking using the constants
+            roomRepo.Setup(r => r.GetRoom(1)).Returns(new Room { });
+
             Booking booking = new Booking();
             booking.CheckInDate = checkin;
-            booking.CheckInDate = checkout;
+            booking.CheckOutDate = checkout;
             booking.NumberOfGuests = guestCount;
             booking.RoomId = 1;
             var bookingCostFromService = service.CalculateBookingCost(1, booking);
